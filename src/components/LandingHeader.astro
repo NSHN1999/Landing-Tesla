@@ -32,7 +32,7 @@
 
     <div
         id="menu-backdrop"
-        class="absolute bg-black/5 backdrop-blur-lg rounded
+        class="absolute bg-black/10 backdrop-blur-lg rounded
         left-[var(--left)] top-[var(--top)]
         w-[var(--width)] h-[var(--height)]
         transition-all duration-300
@@ -73,6 +73,7 @@
     const menuBackdrop = document.querySelector("#menu-backdrop") as HTMLElement;
 
     listItem.forEach((item) => {
+
         item.addEventListener("mouseenter", () => {
             const {left, top, width, height} = item.getBoundingClientRect();
 
@@ -89,4 +90,5 @@
             menuBackdrop.style.visibility = "hidden";
         })
     });
+
 </script>
