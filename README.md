@@ -1,1 +1,1 @@
-Mi primer poyecto con Astro y React.
+Landing Tesla utilizando Astro, JavaScript, React y Tailwind.
