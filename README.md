@@ -1,1 +1,1 @@
-Landing Tesla utilizando Astro, JavaScript, React y Tailwind.
+Landing Tesla utilizando Astro, JavaScript, y Tailwind.
